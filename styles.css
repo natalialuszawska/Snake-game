@@ -1,0 +1,44 @@
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #C1E1C1;
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+
+#gameCanvas {
+    border: 1px groove #000;
+    background-color: #006400;
+}
+
+.controls {
+    margin: 20px;
+    text-align: center;
+}
+
+.score {
+    font-size: 20px;
+    color: #FFF;
+}
+
+.instructions {
+    margin: 20px;
+    color: #FFF;
+}
+
+.speed-style-select {
+    border: 1px groove #006400;
+    border-radius: 20px;
+    background-color: #006400;
+    color: #FFF;
+    font-size: medium;
+}
+
+.speed-style-btn {
+    border: 1px groove #006400;
+    border-radius: 20px;
+    background-color: #006400;
+    color: #FFF;
+    font-size: large;
+}

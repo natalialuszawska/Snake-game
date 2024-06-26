@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Snake Game</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <h1 style="color: white;">Snake Game</h1>
+    <div class="controls" style="color: white;">
+        <label for="speed">Select speed: </label>
+        <select id="speed" class="speed-style-select">
+            <option value="300">Slow</option>
+            <option value="200" selected>Medium</option>
+            <option value="100">Fast</option>
+        </select>
+        <button onclick="startGame()" class="speed-style-btn">Start Game</button>
+    </div>
+    <div class="score">Score: <span id="score">0</span></div>
+    <canvas id="gameCanvas" width="400" height="400"></canvas>
+    <div class="instructions">
+        <p>Use arrow keys to move the snake.</p>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
